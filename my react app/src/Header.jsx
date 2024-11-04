@@ -1,6 +1,6 @@
 import React from 'react';
 import logo1 from "./images/image-hero-desktop.jpg"
-import body from './body.jsx';
+import BodyComponent from './BodyComponent';
 function Header(){
     return (
         <>
@@ -16,7 +16,7 @@ function Header(){
                     </span>
                 </div>
             </div>
-            <body/>
+            <BodyComponent/>
         </>
     );
 }
